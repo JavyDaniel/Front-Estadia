@@ -1,0 +1,6 @@
+.sidebar {
+    flex: 1;
+    background-color: #7b7b7b;
+    position: relative;
+    /* height: auto; */
+}

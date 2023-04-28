@@ -1,0 +1,76 @@
+.chat-full {
+  flex: 2;
+}
+
+.chat-header {
+  height: 65px;
+    background-color: #7b7b7b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.chat-header .chatIcons {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-header .chatIcons img {
+  height: 24px;
+  cursor: pointer;
+}
+.chat-full .chat-header .avatar img {
+  background-color: #ffffff;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.chat-full .chat-messages {
+  /* background-color: #c19797; */
+  background: url(https://cloud.githubusercontent.com/assets/398893/15136779/4e765036-1639-11e6-9201-67e728e86f39.jpg);
+  padding: 15px;
+  height: calc(100% - 160px);
+  overflow: scroll;
+}
+
+.chat-full .chat-messages .message {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0px 10px 0px 10px;
+  /* border-radius: 0px 10px 10px 10px; */
+}
+
+.content{
+        padding: 10px;
+        max-width: max-content;
+        /* border-radius: 0px 12px 12px 12px; */
+        color: #fff0f0;
+    
+}
+
+.content p{
+  margin: 0;
+}
+
+.chat-full .chat-messages .message .content p{
+  padding: 5px 20px;
+  border-radius: 0px 10px 10px 10px;
+  max-width: max-content;
+ 
+  
+}
+
+/* .sended{
+  justify-content: flex-end;
+}
+.recieved{
+  justify-content: flex-start;
+} */

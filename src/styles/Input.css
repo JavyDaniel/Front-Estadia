@@ -1,0 +1,36 @@
+.input-container {
+    height: 95px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+  }
+.input-container input{
+    width: 90%;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 15px;
+    
+    
+}
+.input-container input::placeholder{
+
+  color: #b8b8b8;
+
+  
+}
+.input-container button {
+    border: none;
+    padding: 10px 10px;
+    color: white;
+    background-color: #8c8c8c;
+    cursor: pointer;
+    margin-top: 0px;
+  }
